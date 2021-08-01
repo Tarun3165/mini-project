@@ -1,0 +1,39 @@
+ 
+#clockContainer{
+     position: relative;
+    width:43VW;
+    height:43VW;
+    background:url("https://cdn.pixabay.com/photo/2016/12/08/11/47/time-1891560_1280.png" ) no-repeat;
+    /* border: 1px solid red; */
+    background-size: 100%; 
+    margin: auto;
+}
+#hourHand{
+    width: 0.8VW;
+    height: 10VW;
+    background-color: black;
+    position: absolute;
+    top: 11.8VW;
+    left: 21.1VW;
+    transform-origin: bottom;  
+    /* display: none; */
+}
+#minhand{
+    width: 0.6VW;
+    height: 13VW;
+    background-color: black;
+    position: absolute;
+    top: 8.8VW;
+    left: 21.2VW;
+    transform-origin: bottom;  
+    /* display: none; */
+}
+#secHand{
+    width: 0.4VW;
+    height: 14VW;
+    background-color: black;
+    position: absolute;
+    top: 7.6VW;
+    left: 21.3VW; 
+    transform-origin: bottom; 
+}
